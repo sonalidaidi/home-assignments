@@ -1,0 +1,24 @@
+# Smart Parking Sensor
+
+## Components
+- Arduino Uno
+- HC-SR04 Ultrasonic Sensor
+- OLED Display
+- 3 LEDs
+- Buzzer
+
+## Connections
+- TRIG -> D9
+- ECHO -> D10
+- SDA -> A4
+- SCL -> A5
+- Red LED -> D2
+- Yellow LED -> D3
+- Green LED -> D4
+- Buzzer -> D6
+
+## Formula
+Distance = (Time × Speed of Sound) / 2
+
+## Working
+The ultrasonic sensor measures the distance to an obstacle. The OLED displays the distance. LEDs and the buzzer indicate how close the obstacle is.
